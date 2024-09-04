@@ -1,0 +1,213 @@
+#bottom-row {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    left: 0%;
+    top: 90%;
+    background-color: rgb(49, 48, 48);
+}
+
+
+#bottom-row #colorCircleDisplay {
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    height: 100%;
+    width: 20%;
+    top: 1%;
+    border-radius: 40%;
+}
+
+
+#bottom-row #colorCircleDisplay #nextTurnAndProblemDisplay {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+#RedPoints {
+    position: absolute;
+    background-color: gray;
+    left: 63%;
+    height: 50%;
+    width: 13%;
+    top: 28%;
+    border-radius: 4%;
+    color: white;
+    align-items: center;
+}
+
+#BluePoints {
+    position: absolute;
+    background-color: gray;
+    left: 24%;
+    height: 50%;
+    width: 13%;
+    top: 28%;
+    border-radius: 4%;
+    color: white;
+    align-items: center;
+}
+
+#Timer {
+    position: absolute;
+    background-color: gray;
+    left: 2%;
+    height: 50%;
+    width: 16.5%;
+    top: 28%;
+    border-radius: 4%;
+    color: white;
+    align-items: center;
+}
+
+
+#livesCounter {
+    background-color: rgb(139, 133, 133);
+    position: absolute;
+    left: 78%;
+    height: 50%;
+    width: 20%;
+    top: 28%;
+    border-radius: 4%;
+    color: white;
+}
+
+
+
+#button-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+
+
+#button-row button {
+    min-width: 5%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+
+#hostPanel-Panel {
+    background-color: rgb(34, 33, 33);
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    left: 12%;
+    top: 6%;
+    border-radius: 4%;
+}
+
+
+#hostPanel-Panel #hostPanel-Label {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    height: 50%;
+    left: 45%;
+    top: 4%;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+
+#hostPanel-Panel #hostPanel-Options {
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    height: 75%;
+    width: 92%;
+    left: 4%;
+    top: 11%;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+
+#hostPanel-Panel #hostPanel-Options button {
+    background-color: rgb(63, 62, 62);
+    min-width: 100%;
+    height: 10%;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+#hostPanel-Panel #hostPanel-Options .Toggle {
+    color: white;
+}
+
+
+#hostPanel-Panel #StartButton {
+    background-color: lime;
+    color: white;
+    font-size: medium;
+    position: absolute;
+    height: 10%;
+    width: 70%;
+    left: 15%;
+    top: 89%;
+    border-radius: 8%;
+}
+
+
+#hostPanel-Panel #StartButton button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: larger;
+    border: none;
+}
+
+
+#hostPanel-TimeInput {
+    background-color: rgb(63, 62, 62);
+    min-width: 100%;
+    height: 10%;
+    width: 100%;
+    color: white;
+    font-size: medium;
+}
+
+#hostPanel-Panel #hostPanel-Options #devide {
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    height: 1%;
+}
+
+
+#topbarBoxNotification {
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    height: auto;
+    width: 20%;
+    border-radius: 4%;
+    visibility: hidden;
+    color: white;
+    display: flex;
+    font-size: large;
+    flex-wrap: wrap;
+}

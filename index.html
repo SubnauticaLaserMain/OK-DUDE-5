@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gange Spillet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div id="topbarBoxNotification"></div>
+        <div id="hostPanel-Panel">
+            <div id="hostPanel-Label">Host Panel</div>
+            <div id="hostPanel-Options">
+                <button class="Toggle" id="LivesToggle">Toggle Lives: ON</button>
+                <button class="Toggle" id="hostPanel-LivesStay-Toggle">Lives Stay: OFF [HARD]</button>
+                <button class="Toggle" id="hostPanel-LivesHidden-Toggle">Lives Hidden: OFF</button>
+                <div id="devide"></div>
+                <button class="Toggle" id="TimeToggle">Toggle Time: ON</button>
+                <input id="hostPanel-TimeInput" placeholder="Input time number of seconds here. default time is 15 seconds">
+                <button id="hostPanel-TimeInput-Button">Set Time</button>
+                <div id="devide"></div>
+                <button class="Toggle" id="HardcoreModeToggle">Toggle HardMode: OFF</button>
+                <button class="Toggle" id="HideQustionsToggle">Toggle Hide Questions: OFF</button>
+            </div>
+            <div id="StartButton">
+                <button id="StartButton-Button">Start</button>
+            </div>
+        </div>
+        <div id="bottom-row">
+            <div id="colorCircleDisplay">
+                <button id="nextTurnAndProblemDisplay">GG</button>
+            </div>
+            <div id="livesCounter"></div>
+            <div id="RedPoints"></div>
+            <div id="BluePoints"></div>
+            <div id="Timer"></div>
+        </div>
+        <div id="button-row">
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+    </body>
+</html>
